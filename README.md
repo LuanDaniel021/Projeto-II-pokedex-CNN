@@ -28,31 +28,9 @@ Simulando o funcionamento de uma Pokédex real.
 
 ## 🧠 Tecnologias
 
-Python
-
-CustomTkinter
-
-NumPy / Pandas
-
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-project/
-│
-├── data/ # Imagens
-│
-├── src/ # Aplicação
-│ ├── core/
-│ │ └── __init__.py
-│ └── main.py
-│
-├── ui/ # Interface
-│
-└── README.md
-```
+- Python
+- CustomTkinter
+- TkinterDnD
 
 
 ---
