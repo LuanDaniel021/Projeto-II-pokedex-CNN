@@ -15,19 +15,9 @@ class Viewport( ctk.CTkFrame ):
         )
 
         self.top = TabControl( self )
-        self.top.pack(
-            fill="x",
-            padx=5,
-            pady=5
-        )
 
         self.center = ContentPanel( self )
-        self.center.pack(
-            fill="both",
-            expand=True,
-            padx=5,
-            pady=5
-        )
+        
 
 
 class TabControl( ctk.CTkFrame ):
@@ -35,6 +25,12 @@ class TabControl( ctk.CTkFrame ):
     def __init__( self, master ):
 
         super().__init__( master )
+        
+        self.pack(
+            fill="x",
+            padx=5,
+            pady=5
+        )
 
         self.tab_Entrada = ctk.CTkButton( self, text="Entrada" )
         self.tab_Entrada.pack(
@@ -57,6 +53,13 @@ class ContentPanel( ctk.CTkFrame ):
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
+        
+        self.pack(
+            fill="both",
+            expand=True,
+            padx=5,
+            pady=5
+        )
 
         self.result = PanelResult( self )
         self.input = PanelInput( self )
@@ -70,7 +73,7 @@ class PanelInput( ctk.CTkFrame ):
     def __init__( self, master ):
 
         super().__init__( master )
-
+        
         self.grid(
             row=0,
             column=0,
@@ -81,9 +84,6 @@ class PanelInput( ctk.CTkFrame ):
         self.label.pack( pady=20 )
 
         self.img_label = ctk.CTkLabel( self, text="" )
-
-        self.btn_load = ctk.CTkButton( self, text="Ou clique para carregar" )
-        self.btn_load.pack(pady=10)
 
         # --- DRAG & DROP ---
         self.drop_area = ctk.CTkFrame(
@@ -101,6 +101,9 @@ class PanelInput( ctk.CTkFrame ):
         )
 
         self.drop_area.drop_target_register( DND_FILES )
+        
+        self.btn_load = ctk.CTkButton( self, text="Ou clique para carregar" )
+        self.btn_load.pack(pady=10)
 
 
 # --------------------------
@@ -112,6 +115,7 @@ class PanelResult( ctk.CTkFrame ):
 
         super().__init__( master )
         
+        self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
         
         self.grid(
@@ -160,6 +164,7 @@ class PanelData(ctk.CTkFrame):
 
         super().__init__( master )
 
+        self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
 

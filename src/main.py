@@ -1,15 +1,21 @@
 
+from core import classificar
 from dataclasses import dataclass
 from tkinterdnd2 import TkinterDnD
 from tkinter import filedialog
 from typing import List
 from ui import Viewport
 from PIL import Image
+import json
 
 import customtkinter as ctk
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
+
+def load():
+    with open("data/pokemons.json", "r") as f:
+        return json.load(f)
 
 class Application( TkinterDnD.Tk ):
 
@@ -39,14 +45,27 @@ class Application( TkinterDnD.Tk ):
 
 
     def process_image(self, path) -> None:
+        
+        data = load()
+        
+        index = classificar( path )
+
         try:
-            img = Image.open(path)
+            img = Image.open( data[index]["img"] )
 
             ctk_img = ctk.CTkImage(
                 img, size=(200, 200)
             )
 
             self.view.center.result.empty.destroy()
+
+            self.view.center.result.data.name.configure(
+                text=data[index]["nome"]
+            )
+            
+            self.view.center.result.data.desc.configure(
+                text=data[index]["descricao"]
+            )
 
             self.view.center.result.data.img.configure(
                 image=ctk_img

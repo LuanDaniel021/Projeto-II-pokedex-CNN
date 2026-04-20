@@ -1,152 +1,182 @@
 [
     {
         "nome": "poliwhirl",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/poliwhirl.png"
+        "tipo": "Água",
+        "descricao": "Suas duas patas são bem desenvolvidas. Embora possa viver em terra firme, prefere viver na água.",
+        "img": "data/imagens/poliwhirl.png"
     },
     {
         "nome": "poliwrath",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/poliwrath.png"
+        "tipo": "Água e Lutador",
+        "descricao": "Nadador habilidoso, domina os estilos crawl, borboleta e muitos outros. É mais rápido que os melhores nadadores humanos.",
+        "img": "data/imagens/poliwrath.png"
     },
     {
         "nome": "abra",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/abra.png"
+        "tipo": "Psíquico",
+        "descricao": "Ele dorme 18 horas por dia. Ele usa uma variedade de poderes extra sensoriais, inclusive enquanto dorme.",
+        "img": "data/imagens/abra.png"
     },
     {
         "nome": "kadabra",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/kadabra.png"
+        "tipo": "Psíquico ",
+        "descricao": "Aconteceu numa certa manhã: um menino com poderes extra sensoriais acordou na cama transformado em KADABRA.",
+        "img": "data/imagens/kadabra.png"
     },
     {
         "nome": "alakazam",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/alakazam.png"
+        "tipo": "Psíquico",
+        "descricao": "Não gosta muito de ataques físicos. Em vez disso, usa livremente poderes extrassensoriais para derrotar os inimigos.",
+        "img": "data/imagens/alakazam.png"
     },
     {
         "nome": "machop",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/machop.png"
+        "tipo": "Lutador",
+        "descricao": "Seu corpo inteiro é composto de músculos. Mesmo tendo o tamanho de uma criança humana, ele consegue arremessar 100 adultos.",
+        "img": "data/imagens/machop.png"
     },
     {
         "nome": "machoke",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/machoke.png"
+        "tipo": "Lutador",
+        "descricao": "Seu corpo formidável jamais se cansa. Ele auxilia as pessoas realizando trabalhos como o transporte de mercadorias pesadas.",
+        "img": "data/imagens/machoke.png"
     },
     {
         "nome": "machamp",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/machamp.png"
+        "tipo": "Lutador",
+        "descricao": "Seus quatro braços robustos podem desferir uma saraivada de 1000 socos em apenas dois segundos.",
+        "img": "data/imagens/machamp.png"
     },
     {
         "nome": "bellsprout",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/bellsprout.png"
+        "tipo": "Planta, Venenoso",
+        "descricao": "Seu broto se assemelha a um rosto humano. Devido a isso, há rumores de que seja um tipo de planta lendária de mandrágora.",
+        "img": "data/imagens/bellsprout.png"
     },
     {
         "nome": "weepinbell",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/weepinbell.png"
+        "tipo": "Planta, Venenoso",
+        "descricao": "As partes folhosas atuam como lâminas para cortar. Ela cospe um fluido que dissolve tudo.",
+        "img": "data/imagens/weepinbell.png"
     },
     {
         "nome": "victreebel",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/victreebel.png"
+        "tipo": "Planta, Venenoso",
+        "descricao": "Atrai a presa para a boca com um aroma semelhante ao mel. A presa indefesa é derretida por um fluido dissolvente.",
+        "img": "data/imagens/victreebel.png"
     },
     {
         "nome": "tentacool",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/tentacool.png"
+        "tipo": "Água, Venenoso",
+        "descricao": "Seus olhos são transparentes como cristais. Deles, ele dispara misteriosos raios de luz.",
+        "img": "data/imagens/tentacool.png"
     },
     {
         "nome": "tentacruel",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/tentacruel.png"
+        "tipo": "Água, Venenoso",
+        "descricao": "Possui 80 tentáculos que se movem livremente. Eles podem picar, causando envenenamento e dor aguda e lancinante.",
+        "img": "data/imagens/tentacruel.png"
     },
     {
         "nome": "geodude",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/geodude.png"
+        "tipo": "Pedra, Terra",
+        "descricao": "Seu formato arredondado facilita o manuseio. Algumas pessoas as usam para atirar umas nas outras em guerras de bolas de neve.",
+        "img": "data/imagens/geodude.png"
     },
     {
         "nome": "graveler",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/graveler.png"
+        "tipo": "Pedra, Chão",
+        "descricao": "Tenha cuidado ao fazer trilhas na montanha. Graveler pode descer rolando pela trilha sem diminuir a velocidade.",
+        "img": "data/imagens/graveler.png"
     },
     {
         "nome": "golem",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/golem.png"
+        "tipo": "Pedra, Chão",
+        "descricao": "Está envolto por uma carapaça dura, tão resistente quanto lajes de rocha. Troca de pele uma vez por ano para crescer.",
+        "img": "data/imagens/golem.png"
     },
     {
         "nome": "ponyta",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/ponyta.png"
+        "tipo": "Fogo",
+        "descricao": "Seu corpo é leve e suas pernas são incrivelmente poderosas. Ele consegue ultrapassar Ayers Rock em um único salto.",
+        "img": "data/imagens/ponyta.png"
     },
     {
         "nome": "rapidash",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/rapidash.png"
+        "tipo": "Fogo",
+        "descricao": "Ele pode galopar a uma velocidade máxima de 240 quilômetros por hora. Pode correr tão rápido quanto um trem-bala em chamas.",
+        "img": "data/imagens/rapidash.png"
     },
     {
         "nome": "slowpoke",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/slowpoke.png"
+        "tipo": "Água, Psíquico",
+        "descricao": "Está sempre perdido em pensamentos, mas ninguém sabe no que está pensando. É como pescar com o rabo.",
+        "img": "data/imagens/slowpoke.png"
     },
     {
         "nome": "slowbro",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/slowbro.png"
+        "tipo": "Água, Psíquico",
+        "descricao": "Quando um Slowpoke foi caçar no mar, sua cauda foi mordida por um Shellder. Isso o fez evoluir para Slowbro.",
+        "img": "data/imagens/slowbro.png"
     },
     {
         "nome": "magnemite",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/magnemite.png"
+        "tipo": "Elétrico, Metal",
+        "descricao": "Ele se move enquanto paira constantemente. Ele dispara THUNDER WAVE e outras energias das unidades em suas laterais.",
+        "img": "data/imagens/magnemite.png"
     },
     {
         "nome": "magneton",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/magneton.png"
+        "tipo": "Elétrico, Metal",
+        "descricao": "Um aglomerado interligado formado por vários MAGNEMITE. Ele emite ondas magnéticas poderosas em alta voltagem.",
+        "img": "data/imagens/magneton.png"
     },
     {
         "nome": "farfetchd",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/farfetchd.png"
+        "tipo": "Normal, Voador",
+        "descricao": "Ela sempre anda por aí com um talo de planta preso no bico. O talo é usado para construir seu ninho.",
+        "img": "data/imagens/farfetchd.png"
     },
     {
         "nome": "doduo",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/doduo.png"
+        "tipo": "Normal, Voador",
+        "descricao": "Um Pokémon de duas cabeças que foi descoberto como uma mutação repentina. Ele corre a uma velocidade superior a 96 quilômetros por hora.",
+        "img": "data/imagens/doduo.png"
     },
     {
         "nome": "dodrio",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/dodrio.png"
+        "tipo": "Normal, Voador",
+        "descricao": "Uma espécie peculiar, raramente encontrada. As três cabeças representam, respectivamente, alegria, tristeza e raiva.",
+        "img": "data/imagens/dodrio.png"
     },
     {
         "nome": "seel",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/seel.png"
+        "tipo": "Água",
+        "descricao": "Coberto por uma pelagem azul-clara, seu couro é grosso e resistente. É ativo em frio intenso ou em temperaturas de até -40 graus Fahrenheit.",
+        "img": "data/imagens/seel.png"
     },
     {
         "nome": "dewgong",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/dewgong.png"
+        "tipo": "Água, Gelo",
+        "descricao": "Seu corpo é coberto por uma pelagem branca pura. Quanto mais frio o tempo, mais ativo ele se torna.",
+        "img": "data/imagens/dewgong.png"
     },
     {
         "nome": "grimer",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/grimer.png"
+        "tipo": "Venenoso",
+        "descricao": "Lodo exposto a raios X da lua se transformou em GRIMER. Ele adora se alimentar de coisas imundas.",
+        "img": "data/imagens/grimer.png"
     },
     {
         "nome": "muk",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/muk.png"
+        "tipo": "Venenoso",
+        "descricao": "Geralmente é indetectável porque se camufla com o solo. Tocar nele pode causar um envenenamento terrível.",
+        "img": "data/imagens/muk.png"
     },
     {
         "nome": "shellder",
-        "descricao": "Descrição não disponível.",
-        "img": "imagens/shellder.png"
+        "tipo": "Água",
+        "descricao": "Está envolto numa casca mais dura que o diamante. Por dentro, porém, é surpreendentemente macio.",
+        "img": "data/imagens/shellder.png"
     }
 ]
